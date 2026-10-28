@@ -30,6 +30,8 @@ Per-class F1, logistic regression: 3-class: Negative 0.80, Positive 0.82, Neutra
 - Tweets may contain personal information; the data is not included here.
 
 ## Run it
+
+A notebook version, [`covid_tweet_sentiment.ipynb`](covid_tweet_sentiment.ipynb), walks through the same analysis step by step. Its outputs are built from the committed `results.json`; the full-pipeline section runs only if you add the raw data.
 ```
 pip install pandas numpy scikit-learn
 python sentiment.py             # reads ./data/Corona_NLP_train.csv and Corona_NLP_test.csv
